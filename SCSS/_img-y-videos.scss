@@ -1,0 +1,51 @@
+/* fotos y videos */
+
+@mixin sizes ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+img {
+    @include sizes(100px, 600px)
+}
+
+.first {
+    @include sizes(50px, 50px)
+}
+
+.second {
+    @include sizes(70%, 550px)
+}
+
+.yon {
+    @include sizes(250px, 250px);
+    padding: 10px;
+}
+
+.go {
+    @include sizes(350px, 350px);
+    padding: 10px;
+}
+
+.tienda {
+    @include sizes(150px, 150px);
+    ;
+    padding: 5px;
+
+}
+
+.gallery-item {
+    @include sizes(300px, 300px);
+    padding: 20px;
+}
+
+.img-c {
+    @include sizes(100px, 100px);
+    padding: 0;
+}
+
+
+.intro {
+    @include sizes(600px, 600px);
+
+}

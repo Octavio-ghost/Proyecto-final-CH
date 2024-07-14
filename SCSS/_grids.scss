@@ -1,0 +1,54 @@
+/* grids */
+
+
+#grid-1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#grid-2 {
+    display: grid;
+    grid-template-columns: repeat(5,1fr)
+}
+
+#grid-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.yon-pr {
+    
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    grid-template-rows: repeat(1, 260px);
+}
+
+.go-pr {
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    column-gap: 200px;
+}
+
+.Contac {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    margin: 50px;
+    padding: 50px;
+    background-color: black;
+}
+
+
+
+.contac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    ;
+    width: 140px;
+}
+
+
+.Q-S-main {display: grid; grid-template-columns: 1fr 300px;}

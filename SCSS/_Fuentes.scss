@@ -1,0 +1,35 @@
+/*Fuentes y tipografias*/
+
+h1 {
+    font-family: monospace; 
+    color: #C0C0C0; 
+}
+
+h2 {
+    @extend h1;
+}
+
+h3 {
+    @extend h1;
+}
+
+h4 {
+    @extend h1;
+}
+
+h5 {
+    @extend h1; 
+}
+
+p {
+    font-family: monospace;
+    color: black;
+}
+
+.Elegirnos {
+    font-family: monospace;
+    color: black;
+}
+.texto-carousel{color: black;}
+
+.t-tienda {color: black;}

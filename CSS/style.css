@@ -1,150 +1,355 @@
-/* header */
-.octi {
-    background-color: blue;
-    font-style: 32px;
-    font-family: cursive;
+@charset "UTF-8";
+/*Fuentes y tipografias*/
+h1, h5, h4, h3, h2 {
+  font-family: monospace;
+  color: #C0C0C0;
+}
+
+p {
+  font-family: monospace;
+  color: black;
+}
+
+.Elegirnos {
+  font-family: monospace;
+  color: black;
+}
+
+.texto-carousel {
+  color: black;
+}
+
+.t-tienda {
+  color: black;
 }
 
 /* fotos y videos */
 img {
-    height: 150px;
-    width: 150px;
+  width: 100px;
+  height: 600px;
 }
 
 .first {
-    height: 50px;
-    width: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .second {
-    height: 550px;
-    width: 70%;
+  width: 70%;
+  height: 550px;
 }
 
 .yon {
-    height: 250px;
-    width: 250px;
-    padding: 10px;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
 }
 
 .go {
-    height: 350px;
-    width: 350px;
-    padding: 10px;
+  width: 350px;
+  height: 350px;
+  padding: 10px;
 }
 
-/* Body */
-body {
-    background-image: url(../Multimedia/—Pngtree—japan\ tourism\ pink\ hand\ painted_925012.jpg);
-    background-size: 100%;
+.tienda {
+  width: 150px;
+  height: 150px;
+  padding: 5px;
 }
 
-/* grids containers */
+.gallery-item {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+
+.img-c {
+  width: 100px;
+  height: 100px;
+  padding: 0;
+}
+
+.intro {
+  width: 600px;
+  height: 600px;
+}
+
+/* footer*/
+footer {
+  background-image: url(../Multimedia/Otros/pngwing.com.png);
+  background-size: contain;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-content: center;
+  height: 50px;
+  margin-top: 50px;
+}
+
+/* grids */
+#grid-1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#grid-2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#grid-3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .yon-pr {
-    border: solid black 10px;
-    display: grid;
-    grid-template-columns: repeat(5, 250px);
-    grid-template-rows: repeat(1, 260px);
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  grid-template-rows: repeat(1, 260px);
 }
 
 .go-pr {
-    display: grid;
-    grid-template-columns: repeat(3, 450px);
-    column-gap: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 450px);
+  column-gap: 200px;
 }
 
-/* grids items */
-.yon {
-    border: 1px solid black;
+.Contac {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  margin: 50px;
+  padding: 50px;
+  background-color: black;
 }
 
-.go {
-    border: 1px solid black;
+.contac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 140px;
 }
 
-/* footer */
-
-footer {
-    background-color: rgba(177, 29, 164, 0.719);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-content: center;
-    height: 50px;
-    
+.Q-S-main {
+  display: grid;
+  grid-template-columns: 1fr 300px;
 }
 
+/* animaciones */
+.circle {
+  background-color: rgb(37, 37, 148);
+  border-radius: 300px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
 
-a {color: crimson;}
+.circle:hover {
+  background-color: green;
+  transition-delay: 0s;
+}
 
-.custom-carousel .carousel-inner {width: 100%; height: 1fr;}
+.card {
+  background-color: rgb(10, 198, 223);
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.card:hover {
+  background-color: yellowgreen;
+  border: darkgreen 5px double;
+  transition: 0.5s;
+}
 
+/* header */
+.octi {
+  background-color: blue;
+  font-style: 32px;
+  font-family: monospace;
+  margin-bottom: 50px;
+}
 
+body {
+  background-color: black;
+}
 
+main {
+  background-color: #C0C0C0;
+}
 
+section {
+  background-color: white;
+}
+
+P {
+  background-color: white;
+}
+
+.accordion-body {
+  background-color: rgba(238, 96, 14, 0.479);
+}
+
+.accordion-button {
+  background-color: rgba(4, 124, 124, 0.534);
+}
+
+a {
+  color: white;
+  font-family: cursive;
+  text-decoration: none;
+}
+
+.custom-carousel .carousel-inner {
+  width: 100%;
+  height: 1fr;
+}
+
+/* position */
+.sticky-p {
+  height: 10px;
+  width: 1000px;
+}
+
+.sticky {
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.card-c {
+  background-image: url(../Multimedia/Otros/—Pngtree—flat\ green\ bamboo\ forest\ pattern_4538723.png);
+  background-size: cover;
+  border: double 5px darkblue;
+  margin-left: 40px;
+}
+
+.card-title {
+  background-color: #C0C0C0;
+}
+
+.card-text {
+  background-color: #C0C0C0;
+}
+
+.btn {
+  position: relative;
+  left: 120px;
+  bottom: 10px;
+}
+
+.card-img-top {
+  height: 300px;
+  width: 300px;
+}
+
+.ubicacion {
+  height: 300px;
+  width: 300px;
+}
+
+#grid-1 {
+  background-color: black;
+}
+
+#grid-2 {
+  background-color: black;
+}
+
+#grid-3 {
+  background-color: black;
+}
 
 /* Mediaquerys */
 @media (min-width: 1024px) {
-
-    .yon-pr {
-        grid-template-columns: repeat(5, 250px);
-    }
-
-    .go-pr {
-        grid-template-columns: repeat(3, 250px);
-    }
+  .yon-pr {
+    grid-template-columns: repeat(5, 250px);
+  }
+  .go-pr {
+    grid-template-columns: repeat(3, 250px);
+  }
+  #grid-1 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  #grid-2 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  #grid-3 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .Q-S-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .yon-pr {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .go-pr {
-        grid-template-columns: repeat(1, 1fr);
-    }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .yon-pr {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .go-pr {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #grid-1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Q-S-main {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
-
 @media (max-width: 767px) {
-    .yon-pr {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-
-    .yon {
-        position: relative;
-        width: 100%;
-    }
-
-    .yon img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    .go-pr {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .go {
-        position: relative;
-        width: 100%;
-    }
-
-    .go img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-
-
+  .yon-pr {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .yon {
+    position: relative;
+    width: 100%;
+  }
+  .yon img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .go-pr {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .go {
+    position: relative;
+    width: 100%;
+  }
+  .go img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  #grid-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #grid-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #grid-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Q-S-main {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
+
+/*# sourceMappingURL=style.css.map */

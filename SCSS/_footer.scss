@@ -1,0 +1,12 @@
+/* footer*/
+footer {
+    background-image: url(../Multimedia/Otros/pngwing.com.png);
+    background-size: contain;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-content: center;
+    height: 50px;
+    margin-top: 50px;
+
+}

@@ -1,0 +1,31 @@
+/* animaciones */
+.circle {
+    background-color: rgb(37, 37, 148);
+    border-radius: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle:hover {
+    background-color: green;
+    transition-delay: 0s;
+}
+
+
+
+.card {
+    background-color: rgb(10, 198, 223);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card:hover {
+    background-color: yellowgreen;
+    border: darkgreen 5px double;
+    transition: 0.5s;
+}
+
