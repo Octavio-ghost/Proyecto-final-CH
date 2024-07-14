@@ -49,3 +49,7 @@ img {
     @include sizes(600px, 600px);
 
 }
+
+.cr {
+    @include sizes(1300px,900px);
+}
