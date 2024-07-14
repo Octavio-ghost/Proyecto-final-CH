@@ -18,6 +18,7 @@ $large-screen:1024px;
     #grid-2{ grid-template-columns: repeat(5, 1fr);}
     #grid-3{ grid-template-columns: repeat(5, 1fr);}
     .Q-S-main{ grid-template-columns: repeat(2, 1fr);}
+    .Contac{ grid-template-columns: repeat(3,1fr);}
 
 }
 
@@ -33,6 +34,9 @@ $large-screen:1024px;
     #grid-2{ grid-template-columns: repeat(2,1fr);}
     #grid-3{ grid-template-columns: repeat(2,1fr);}
     .Q-S-main {grid-template-columns: repeat(1, 1fr);}
+    .Contac{grid-template-columns: 1fr; grid-template-rows: repeat(3,300px);}
+    .intro {height: 400px;width: 300px; }
+    
 }
 
 @media (max-width: 767px) { 
@@ -87,6 +91,10 @@ $large-screen:1024px;
     }
     .Q-S-main{ grid-template-columns: repeat(1,1fr);}
 
+
+    .Contac{grid-template-columns: 1fr;grid-template-rows: repeat(3,300px);}
+    .intro{width: 200px; height: 200px;}
+    .ubicacion {width: 200px; height: 200px;}
 
 
 }

@@ -138,7 +138,7 @@ footer {
 
 .Q-S-main {
   display: grid;
-  grid-template-columns: 1fr 300px;
+  grid-template-columns: 1fr 400px;
 }
 
 /* animaciones */
@@ -289,6 +289,9 @@ a {
   .Q-S-main {
     grid-template-columns: repeat(2, 1fr);
   }
+  .Contac {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .yon-pr {
@@ -308,6 +311,14 @@ a {
   }
   .Q-S-main {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .Contac {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 300px);
+  }
+  .intro {
+    height: 400px;
+    width: 300px;
   }
 }
 @media (max-width: 767px) {
@@ -354,6 +365,18 @@ a {
   }
   .Q-S-main {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .Contac {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 300px);
+  }
+  .intro {
+    width: 200px;
+    height: 200px;
+  }
+  .ubicacion {
+    width: 200px;
+    height: 200px;
   }
 }
 
