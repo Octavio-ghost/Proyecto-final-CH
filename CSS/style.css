@@ -3,6 +3,7 @@
 h1, h5, h4, h3, h2 {
   font-family: monospace;
   color: #C0C0C0;
+  padding: 5px;
 }
 
 p {
@@ -171,26 +172,39 @@ footer {
 
 /* header */
 .octi {
-  background-color: blue;
+  background-color: rgb(3, 0, 161);
   font-style: 32px;
   font-family: monospace;
   margin-bottom: 50px;
+}
+.octi a {
+  color: white;
+  font-family: cursive;
+  text-decoration: none;
+}
+.octi .dropdown-menu {
+  background-color: rgb(3, 0, 161);
 }
 
 body {
   background-color: black;
 }
-
-main {
+body p {
+  padding: 10px;
+  background-color: white;
+}
+body main {
   background-color: #C0C0C0;
+  padding: 10px;
+}
+body section {
+  background-color: white;
+  padding: 10px;
 }
 
-section {
-  background-color: white;
-}
-
-P {
-  background-color: white;
+.boton {
+  background-color: rgba(226, 14, 14, 0.904);
+  color: white;
 }
 
 .accordion-body {

@@ -1,8 +1,16 @@
 /* header */
 .octi {
-    background-color: blue;
+    background-color: rgb(3, 0, 161);
     font-style: 32px;
     font-family: monospace;
     margin-bottom: 50px;
+    
+    a {
+        color: white;
+        font-family: cursive;
+        text-decoration: none;
+    }
+    .dropdown-menu{ background-color:rgb(3, 0, 161) ;}
 
 }
+
